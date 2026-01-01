@@ -1,0 +1,14 @@
+{
+  "name": "public-transport-tracking-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack public transport tracking application.",
+  "scripts": {
+    "install-all": "npm install && cd ./frontend && npm install && cd ../backend && npm install",
+    "build-frontend": "cd ./frontend && npm run build",
+    "start-backend": "cd ./backend && npm start",
+    "start": "npm run build-frontend && npm run start-backend"
+  },
+  "author": "",
+  "license": "ISC"
+}
