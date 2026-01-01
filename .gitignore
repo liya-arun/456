@@ -1,0 +1,8 @@
+# Dependencies
+**/node_modules
+
+# Secrets
+backend/serviceAccountKey.json
+
+# Build output
+frontend/public/bundle.js
